@@ -1,0 +1,4 @@
+[2020-05-01 09:45:40] local.ERROR: Method Illuminate\View\View::__toString() must not throw an exception, caught Facade\Ignition\Exceptions\ViewException: Undefined variable: data (View: /home/ogaworkmen/public_html/resources/views/frontend/my_appointments/my_appointlist.blade.php) {"userId":274,"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Method Illuminate\\View\\View::__toString() must not throw an exception, caught Facade\\Ignition\\Exceptions\\ViewException: Undefined variable: data (View: /home/ogaworkmen/public_html/resources/views/frontend/my_appointments/my_appointlist.blade.php) at /home/ogaworkmen/public_html/app/Http/Controllers/MyAppointmentController.php:0)
+[stacktrace]
+#0 {main}
+"} 

@@ -1,0 +1,550 @@
+/*--------------------------------------------------------------------------------------*/
+/*ogaworkman-responsive-Css-Here
+/*--------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:1024px) and (max-width:1169px){
+/*home-page*/
+.heading {margin-bottom: 40px;}
+.abouts_page {padding: 15px 0px;}
+.heading h4 {font-size: 38px;}
+.slider-home .carousel-item {height: 330px;}
+.show > .dropdown-menu{overflow: auto;height: 500px;padding: 0px;border: 1px solid #fff;}
+.home-about .heading p {font-size: 16px;line-height: 22px;}
+.abouts_page .col-md-6 figcaption p {font-size: 14px;}
+.abouts_page figure {height: 410px;}
+.abouts_page .row .col-md-12{font-size: 14px;}
+.bg_contact {padding: 30px 0px;}
+.contact_info h3 {font-size: 22px;}
+.contact_info p {font-size: 13px;line-height: 16px;}
+.info_icons ul span {width: 40px;height: 40px;margin-right: 10px;}
+.bg-gray iframe{height: 450px;}
+.panel-default > .panel-heading a {font-size: 16px;padding: 20px 20px;text-decoration: none;}
+.panel-default > .panel-heading a::after {top: 8px;right: 24px;}
+.inner_Privacy_Policy_section .container figcaption h5 {font-size: 18px;margin: 0px 0px 15px 0px;}
+.downlaod-box figcaption h6 {font-size: 24px;}
+.downlaod-box figcaption h4 {font-size: 36px;font-weight: 700;}
+.custom-control-label a{color: #65a4b4;text-decoration: none;}
+.categories-home-in article figcaption h4 {margin: 0 !important; line-height: 20px !important;}
+.categories-home-in article figcaption h4 a{font-size: 16px !important;}
+.categories-home-in .col-md-3 {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;}
+
+.SumoSelect.open > .optWrapper {display: contents;}
+
+/*Job Management*/
+.heading-in-section {padding-bottom: 20px;}
+.categories-Management .row .col-md-5 figure{height: auto;}
+.View-link {right: 18px;}
+.View-link a{margin-left: auto !important;}
+
+
+/*pagination*/
+.page-item.active .page-link {border-radius: 50%;width: 37px;border: 1px solid transparent;height: 37px;}
+.pagination{justify-content: center;padding: 15px 10px;}
+.pagination .page-item .page-link{border: 1px solid#d3d7df;margin: 0px 5px;border-radius: 50%;width: 37px;height: 37px;color: #8c9097;}
+/*pagination*/
+
+/*appointments*/
+.small-nav-section .navbar-nav .nav-item .nav-link {padding: 15px 20px;}
+.account-manage-box .classic-tabs .tabs-cyan .nav-item a {font-size: 16px; padding: 10px 35px !important;}
+.categories-Management {padding: 30px;}
+.account-manage-box .classic-tabs .tabs-cyan{display: flex;justify-content: center;}
+.profile-linkes a label{width: 50px;height: 50px; margin-bottom: 0px;}
+.profile-linkes a label i{width: 50px;height: 50px; display: flex;justify-content: center;align-items: center;}
+.Payment-in-butt .btn {padding: 6px 15px;font-size: 12px;margin-right: 5px;line-height: 16px;}
+.Payment-in-box {padding: 15px 15px;margin-bottom: 0px;height: 100%;}
+.Payment-in-box h6 {font-size: 16px;padding-right: 45px;}
+.Payment-in-box p {font-size: 16px;}
+.new-card-buttn{padding-top: 20px;}
+
+
+
+.footer-bg .row {padding-bottom: 20px;}
+.footer-bg {padding: 90px 0px 0px 0px;border-radius: 150px 0px 0px 0px;}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+	/*home-page*/
+.container {max-width: 100%;padding-left: 15px !important;padding-right: 15px !important;}
+.heading {margin-bottom: 30px;}
+.abouts_page {padding: 15px 0px;}
+.heading h4 {font-size: 26px;}
+.heading p {font-size: 14px;margin-top: 10px;}
+.slider-home .carousel-item {height: 260px;}
+.home-about .heading p {font-size: 14px;line-height: 18px;}
+.abouts_page .col-md-6 figcaption p {font-size: 14px;margin: 0px 0px 10px 0px;line-height: 18px;}
+.abouts_page figure {height: auto;}
+.abouts_page .row .col-md-12{font-size: 14px;}
+.bg_contact {padding: 30px 0px;}
+.contact_info h3 {font-size: 20px;}
+.contact_info p {font-size: 13px;line-height: 16px;}
+.info_icons ul span {width: 35px;height: 35px;margin-right: 10px;}
+.info_icons ul span i{font-size: 18px;display: flex;line-height: 33px;justify-content: center !important;object-position: center;align-items: center;width: 35px;height: 35px;}
+.bg-gray iframe{height: 360px;}
+.panel-default > .panel-heading a {font-size: 16px;padding: 20px 20px;text-decoration: none;}
+.panel-default > .panel-heading a::after {top: 8px;right: 24px;}
+.inner_Privacy_Policy_section .container figcaption h5 {font-size: 18px;margin: 0px 0px 15px 0px;}
+.downlaod-box figcaption h6 {font-size: 20px;}
+.downlaod-box figcaption h4 {font-size: 32px;font-weight: 600;}
+.downlaod-box figcaption p {font-size: 14px;font-weight: 500;padding-bottom: 20px; line-height: 18px;} 
+.custom-control-label a{color: #65a4b4;text-decoration: none;}
+.cat-head .btn {font-size: 14px;border: 1px solid #71777b;color:#71777b;}
+.dropdown-menu {position: absolute !important;top: 100%;right: 0 !important; left: initial;}
+.navbar-nav{background: #e3eef7;padding: 20px;border-radius: 4px;}
+.navbar-nav .nav-item .btn{display: block;width: max-content; margin-left: 0px; margin-bottom: 10px;}
+.categories-home {padding-top: 30px;}
+.categories-home-in article figcaption h4 {margin: 0 !important; line-height: 18px !important;}
+.categories-home-in article figcaption h4 a{font-size: 14px !important;}
+.categories-home-in .row .col-md-3{flex: 0 0 33.33% !important; width: 33.33% !important; max-width: 33.33% !important;margin-bottom: 20px;}
+.home-about .row .col-md-5{flex: 0 0 60%; width: 60%; max-width: 60%;}
+.home-about .row .col-md-6{flex: 0 0 40%; width: 40%; max-width: 40%;}
+.home-about {margin-bottom: 20px;}
+.sec-padding {padding: 20px 0px;}
+.contact_form {padding: 20px;border-radius: 10px;height: 100%;}
+.bg_contact .row .col-md-8{flex: 0 0 55%; width: 55%; max-width: 55%;}
+.bg_contact .row .col-md-4{flex: 0 0 45%; width: 45%; max-width: 45%;}
+.info_icons ul li p {font-size: 14px;}
+.inner_Privacy_Policy_section {padding: 30px 0px;}
+.downlaod-box figcaption a {padding: 6px 10px;margin-right: 10px;}
+.downlaod-box figcaption a i {font-size: 24px;padding: 0px;margin-right: 10px;}
+.downlaod-box figcaption a span h5 {font-size: 16px;}
+.downlaod-box figcaption a span h6 {font-size: 12px;}
+.title-bg-section h4 {font-size: 24px;}
+.title-bg-section p {font-size: 14px;}
+.downlaod-box {padding: 20px 40px;}
+.categories-home-in article figure a {height: 190px;}
+/*appointments*/
+.small-nav-section .navbar-nav .nav-item .nav-link {padding: 15px 10px;font-size: 14px;}
+.account-manage-box .classic-tabs .tabs-cyan .nav-item a {font-size: 14px; padding: 10px 16px !important;}
+.categories-Management {padding: 20px;}
+.account-manage-box .classic-tabs .tabs-cyan{display: flex;justify-content: center;}
+.profile-linkes a label{width: 50px;height: 50px; margin-bottom: 0px;}
+.profile-linkes a label i{width: 50px;height: 50px; display: flex;justify-content: center;align-items: center;}
+.Payment-in-butt .btn {padding: 5px 10px;font-size: 12px;margin-right: 5px;line-height: 14px;}
+.Payment-in-box {padding: 10px 8px;margin-bottom: 0px;height: 100%;}
+.Payment-in-box h6 {font-size: 14px;padding-right: 45px;}
+.Payment-in-box p {font-size: 16px;}
+.new-card-buttn{padding-top: 20px;}
+.account-manage-box .heading-in-section {padding-bottom: 10px;}
+.account-manage-box .heading-in-section h4{font-size: 18px; margin-bottom: 0px;}
+.Book-Manage-in figcaption {padding-left: 15px;}
+.Manage-classic-box .d-flex {padding: 15px 0px;}
+.Book-Manage-in figcaption h4 {font-size: 16px;font-family: "ProximaNova-semibold";padding-bottom: 5px;}
+.Book-Manage-in figcaption p {line-height: 16px;font-size: 14px;font-family: "ProximaNova-Regular";padding-bottom: 5px;align-items: baseline;}
+.small-nav-section .collapse {display: block;}
+.small-nav-section .navbar-toggler {display: none;}
+.small-nav-section .navbar-nav {padding: 0px; display: flex;flex-direction: initial; justify-content: center;}
+.account-manage-box .row .col-md-4{padding-left: 5px;padding-right: 5px;}
+.table td, .table th {padding: 8px;}
+/*pagination*/
+.page-item.active .page-link {border-radius: 50%;width: 37px;border: 1px solid transparent;height: 37px;}
+.pagination{justify-content: center;padding: 15px 10px;}
+.pagination .page-item .page-link{border: 1px solid#d3d7df;margin: 0px 5px;border-radius: 50%;width: 37px;height: 37px;color: #8c9097;}
+/*pagination*/
+.user-nav-section{position: absolute;bottom: 20px; right: 20px;}
+.user-nav-section figure {min-width: 60px;width: 60px;height: 60px;border: 4px solid #65a4b4;}
+/*services-manage*/
+.services-manage-box figure {height: 260px;}
+.categories-services {width:auto;}
+.service-modal-box .modal-body {padding: 20px;}
+.service-in-page h5 {font-size: 18px;}
+/*Job Management*/
+.heading-in-section {padding-bottom: 20px;}
+.categories-Management .row .col-md-5 figure{height: auto;}
+.View-link {right: 18px;}
+.View-link a{margin-left: auto !important;}
+.categories-Management .col-md-7 .d-flex {padding-bottom: 10px;}
+.manage-box h6 {font-size: 18px;}
+.provider-in-box figure {min-width: 45px;height: 45px;margin-right: 15px;}
+.provider-in-box figcaption h6 {font-size: 14px;font-family: "ProximaNova-semibold";}
+.View-link a {font-size: 14px;font-family: "ProximaNova-semibold";}
+.Provided-cover {height:auto !important;}
+.Provided-profile figure {width: 110px;height: 110px;border: 6px solid #fff;}
+.Provided-profile figcaption h6 {font-size: 20px;font-family: "ProximaNova-Bold";}
+.Provided-section h5 {font-size: 18px;font-family: "ProximaNova-Bold";padding-bottom: 12px;}
+.Provided-links figure {width: auto;height: auto; min-width: auto;}
+.Provided-links .navbar-expand .navbar-nav .nav-link {padding-right: 15px;padding-left: 15px;}
+.Provided-links .navbar-nav {background: none;}
+
+.dropdown-item:focus, .dropdown-item:hover {background-color:#65a4b4;}
+.dropdown-menu{height: 360px; overflow: auto;}
+.cat-head {margin-left: auto;}
+.navbar-light .navbar-toggler{margin-left: 10px;}
+.SumoSelect.open > .optWrapper {display: contents;}
+.modal-header{padding: 10px 20px !important;}
+.modal-header .close {font-size: 38px !important; padding: 0rem;margin: 0rem 0rem 0rem auto}
+
+.Countries-sec button {border: 2px solid #65a4b4;}
+.cat-head .btn {font-size: 14px;background: none;border: 2px solid #65a4b4;color:#65a4b4;
+    padding: 8px 15px;font-size: 16px;font-family: "ProximaNova-Semibold";}
+
+/*footer*/
+.footer-bg .row {padding-bottom: 20px;}
+.footer-bg {padding: 65px 0px 0px 0px;border-radius: 120px 0px 0px 0px;}
+.foot-head {font-size: 16px;padding-bottom: 22px;}
+.footer-bg .foot-info p {font-size: 13px;padding-right: 50px;}
+}
+
+@media only screen and (min-width:480px) and (max-width:767px){
+	/*home-page*/
+.container {width: 100%;padding-right: 15px;padding-left: 15px;max-width: 100%;}
+.wraper {padding-top: 60px;}
+.heading {margin-bottom: 10px;}
+.abouts_page {padding: 15px 0px;}
+.heading h4 {font-size: 20px;}
+.heading p {font-size: 14px;margin-top: 10px;line-height: 18px;}
+.slider-home .carousel-item {height: 185px;}
+.home-about .heading p {font-size: 14px;line-height: 18px;}
+.abouts_page .col-md-6 figcaption p {font-size: 14px;margin: 0px 0px 10px 0px;line-height: 18px;}
+.abouts_page figure {height:240px;}
+.abouts_page .row .col-md-12{font-size: 14px;}
+.bg_contact {padding: 10px 0px;}
+.contact_info h3 {font-size: 20px;}
+.contact_info p {font-size: 13px;line-height: 16px;}
+.info_icons ul span {width: 35px;height: 35px;margin-right: 10px;}
+.info_icons ul span i{font-size: 18px;display: flex;line-height: 33px;justify-content: center !important;object-position: center;align-items: center;width: 35px;height: 35px;}
+.bg-gray iframe{height: 260px;margin-top: 20px;}
+.panel-default > .panel-heading a {font-size: 16px;padding: 20px 20px;text-decoration: none;}
+.panel-default > .panel-heading a::after {top: 8px;right: 24px;}
+.inner_Privacy_Policy_section .container figcaption h5 {font-size: 16px;margin: 0px 0px 10px 0px;}
+.downlaod-box figcaption h6 {font-size: 16px;}
+.downlaod-box figcaption h4 {font-size: 24px;font-weight: 600;}
+.downlaod-box figcaption p {font-size: 13px;font-weight: 500;padding-bottom: 10px; line-height: 16px;} 
+.custom-control-label a{color: #65a4b4;text-decoration: none;}
+.cat-head .btn {font-size: 14px;border: 1px solid #71777b;color:#71777b;}
+.navbar-nav{background: #e3eef7;padding: 15px;border-radius: 4px;margin-top: 10px;}
+.cat-head {margin-left:auto;}
+.navbar-nav .nav-item .btn{display: block;width: max-content; margin-left: 0px; margin-bottom: 10px;}
+.categories-home {padding-top: 30px;}
+.categories-home-in article figcaption h4 {margin: 0 !important; line-height: 14px !important;}
+.categories-home-in article figcaption h4 a{font-size: 14px !important;}
+.categories-home-in .row .col-md-3{flex: 0 0 50% !important; width: 50% !important; max-width: 50% !important;margin-bottom: 20px;}
+.home-about {margin-bottom: 20px;}
+.sec-padding {padding: 20px 0px;}
+.contact_form {padding: 20px;border-radius: 10px;height: 100%;}
+.contact_info {padding: 20px;margin-top: 20px;}
+.info_icons ul li p {font-size: 14px;}
+.inner_Privacy_Policy_section {padding: 20px 0px;}
+.downlaod-box figcaption a {padding: 6px 10px;margin-right: 10px;}
+.downlaod-box figcaption a i {font-size: 24px;padding: 0px;margin-right: 10px;}
+.downlaod-box figcaption a span h5 {font-size: 16px;}
+.downlaod-box figcaption a span h6 {font-size: 12px;}
+.title-bg-section h4 {font-size: 24px;}
+.title-bg-section p {font-size: 14px;}
+.slider-home .carousel-control-next-icon, .slider-home .carousel-control-prev-icon {width: 35px;height: 35px;}
+.carousel-indicators li {width: 12px;height: 12px;}
+.home-about .row .col-md-6 article{margin: auto;}
+.home-about .row .col-md-6 article img{max-width: 220px;}
+.wraper-inner {padding: 10px 0px;}
+.heading .separator {height: 5px;}
+.inner_Privacy_Policy_section .container figcaption p{font-size: 14px; line-height: 18px;margin: 0px 0px 10px 0px;}
+.downlaod-box {padding: 10px 20px;}
+.downlaod-box .col-md-5 figure img{max-width: 240px;}
+.form-box{width: auto;}
+.title-bg-section {padding: 50px 40px;}
+.log-with p {font-size: 14px;margin: 0px;padding-right: 50px;}
+.log-with span {width: 175px;}
+.social-icons a {padding-right: 5px;}
+.social-icons {width: 100%;padding: 10px 0px 10px 0px;}
+.from-in-box {padding: 20px 20px;}
+.navbar-brand {width: 150px;}
+.carousel-indicators {bottom: 0px;}
+.categories-home-in article figure a {height: 190px;}
+.categories-home-in article figcaption {padding: 10px 10px !important;min-height: 60px;}
+.navbar-light .navbar-toggler{margin-left: 10px;}
+.dropdown-item:focus, .dropdown-item:hover {background-color: #65a4b4;}
+.dropdown-menu {right: 0 !important; left: initial; height: 360px !important;overflow: auto;}
+.dropdown-item {white-space: initial;width: 295px; font-size: 14px;font-family: "ProximaNova-semibold";}
+.SumoSelect.open > .optWrapper {display: contents;}
+.SumoSelect > .optWrapper > .options li label {margin-bottom: 0px;}
+.modal-header{padding: 10px 20px !important;}
+.modal-header .close {font-size: 28px !important; padding: 0rem;margin: 0rem 0rem 0rem auto}
+/*appointments*/
+.small-nav-section .navbar-nav .nav-item .nav-link {padding: 10px 10px;font-size: 12px;text-align: center;line-height: 16px;}
+.account-manage-box .classic-tabs .tabs-cyan .nav-item a {font-size: 12px; padding: 10px 10px !important;border-bottom: 2px solid transparent;text-align: center;font-family: "ProximaNova-semibold";}
+.account-manage-box .classic-tabs .tabs-cyan .nav-item .active {border-bottom: 2px solid #65a4b4;}
+.categories-Management {padding: 10px 10px;}
+.account-manage-box .classic-tabs .tabs-cyan{display: flex;justify-content: center;}
+.profile-linkes a label{width: 50px;height: 50px; margin-bottom: 0px;}
+.profile-linkes a label i{width: 50px;height: 50px; display: flex;justify-content: center;align-items: center;}
+.Payment-in-butt .btn {padding: 10px 20px;font-size: 14px;margin-right: 10px;line-height: 14px;}
+.Payment-in-box {padding: 15px 15px;margin-bottom: 0px;height: 100%;}
+.Payment-in-box h6 {font-size: 14px;padding-right: 45px;}
+.Payment-in-box p {font-size: 16px;}
+.new-card-buttn{padding-top: 20px;}
+.account-manage-box .row .col-md-4{padding-bottom: 15px;}
+.account-manage-box .heading-in-section {padding-bottom: 10px;}
+.account-manage-box .heading-in-section h4{font-size: 16px; margin-bottom: 0px;}
+.Book-Manage-in figcaption {padding-left: 10px;}
+.Manage-classic-box .d-flex {padding: 15px 0px;}
+.Book-Manage-in figcaption h4 {font-size: 14px;font-family: "ProximaNova-semibold";padding-bottom: 5px;}
+.Book-Manage-in figcaption p {line-height: 14px;font-size: 12px;font-family: "ProximaNova-Regular";padding-bottom: 5px;align-items: baseline;}
+.manage-right-box p {font-size: 12px; margin-bottom: 0px;}
+.small-nav-section .collapse {display: block;}
+.small-nav-section .navbar-toggler {display: none;}
+.small-nav-section .navbar-nav {padding: 0px; display: flex;flex-direction: initial; justify-content: center;}
+.small-nav-section .navbar-nav .nav-item .active::after {height: 3px;}
+.small-nav-section {margin-top: 10px;}
+.Book-Manage-in figure {border-radius: 8px;min-width: 115px;width: 115px;height: 70px;}
+.Manage-classic-box .d-flex .Book-Manage-in{flex: 0 0 65%; width: 65%;}
+.Manage-classic-box .d-flex .manage-right-box{flex: 0 0 35%; width: 35px;}
+.classic-tabs .tabs-cyan .nav-item{flex: 0 0 50%; width: 50%;}
+.account-profile-box figure {width: 120px;height: 120px;}
+.account-profile-box a {border: 3px solid #fff; bottom: -5px;}
+.table td, .table th {padding: 6px; font-size: 14px;}
+.user-nav-section{position: absolute;bottom: 20px; right: 20px;}
+.user-nav-section figure {min-width: 55px;width: 55px;height: 55px;border: 3px solid #65a4b4;}
+/*pagination*/
+.page-item.active .page-link {border-radius: 50%;width: 37px;border: 1px solid transparent;height: 37px;}
+.pagination{justify-content: center;padding: 15px 10px;}
+.pagination .page-item .page-link{border: 1px solid#d3d7df;margin: 0px 3px;border-radius: 50%;width: 37px;height: 37px;color: #8c9097;}
+/*pagination*/
+/*services-manage*/
+.services-manage-box figure {height: auto;}
+.categories-services {width:auto;}
+.service-modal-box .modal-body {padding: 20px;}
+.service-in-page h5 {font-size: 16px;}
+.services-manage-box figcaption h6 {font-size: 16px;}
+.services-manage-box figcaption {font-size: 14px; padding: 20px 20px;line-height: 18px;}
+.services-manage-box figcaption .d-flex{padding-top: 10px;}
+/*Job Management*/
+.heading-in-section {padding-bottom: 10px;}
+.categories-Management .row .col-md-5 figure{height: auto;}
+.View-link {right: 18px;}
+.View-link a{margin-left: auto !important;}
+.categories-Management .col-md-7 .d-flex {padding-bottom: 10px;}
+.manage-box h6 {font-size: 16px;}
+.provider-in-box figure {min-width: 45px;height: 45px;margin-right: 15px;}
+.provider-in-box figcaption h6 {font-size: 14px;font-family: "ProximaNova-semibold";}
+.View-link a {font-size: 14px;font-family: "ProximaNova-semibold";}
+.categories-Management .text-center h4{font-size: 16px; margin-bottom: 0px;}
+.provider-box h4 {font-size: 16px;font-family: "ProximaNova-semibold";}
+.Provided-cover {height:auto !important;}
+.Provided-profile figure {width: 90px;height: 90px;border: 5px solid #fff;}
+.Provided-profile figcaption h6 {font-size: 16px;font-family: "ProximaNova-Bold";}
+.Provided-section h5 {font-size: 18px;font-family: "ProximaNova-Bold";padding-bottom: 12px;}
+.Provided-links figure {width: auto;height: 185px;margin-bottom: 10px; min-width: auto;}
+.Provided-links .navbar-expand .navbar-nav .nav-link {padding-right: 15px;padding-left: 15px;}
+.Provided-links .navbar-nav {background: none;padding: 0px; margin: 0px 0px 0px 0px;}
+.Provided-links .navbar-nav li a {padding: 8px 20px;font-size: 12px;}
+.Provided-section {padding: 20px;}
+.Manage-classic-box b {font-size: 22px;font-family: "ProximaNova-Bold";}
+
+.Countries-sec button {border: 1px solid #65a4b4; font-size: 12px;padding: 8px 10px;}
+.cat-head .btn {font-size: 12px !important;background: none;border: 1px solid #65a4b4;color:#65a4b4;
+    padding: 8px 10px;font-size: 16px;font-family: "ProximaNova-Semibold";}
+
+/*footer*/
+.footer-bg .row {padding-bottom: 10px;}
+.footer-bg {padding: 45px 0px 0px 0px;border-radius: 90px 0px 0px 0px;}
+.foot-head {font-size: 16px;padding-bottom: 15px;}
+.footer-bg .foot-info p {font-size: 13px;padding-right: 20px;}
+.footer-bg .row .col-md-8 .row .col-md-4{flex: 0 0 50%; width: 50%; max-width: 50%;}
+.footer-bg .row .col-md-8 .row .col-md-4:last-child{flex: 0 0 100%; width: 100%; max-width: 100%;padding-top: 20px;}
+.footer-bg .row .col-md-8 .row .col-md-4 .app-the-link{display: flex;}
+.footer-bg .row .col-md-8 .row .col-md-4 .app-the-link li{padding-bottom: 0px;margin-right: 20px;}
+.footer-bg .foot-info {width:100%;}
+.footer-bg .foot-info a img {width: 190px;height: 45px;margin-bottom: 15px}
+.copy-foot {font-size: 14px;padding: 15px 0px;}
+
+}
+
+@media only screen and (min-width:0px) and (max-width:479px){
+
+	/*home-page*/
+.container {width: 100%;padding-right: 15px;padding-left: 15px;}
+.heading {margin-bottom: 10px;}
+.abouts_page {padding: 10px 0px;}
+.heading h4 {font-size: 18px; margin-bottom: 5px;}
+.heading p {font-size: 12px;margin-top: 10px;line-height: 16px;}
+.slider-home .carousel-item {height: 140px;}
+.home-about .heading p {font-size: 12px;line-height: 16px;}
+.abouts_page .col-md-6 figcaption p {font-size: 12px;margin: 0px 0px 10px 0px;line-height: 16px;}
+.abouts_page figure {height:160px;}
+.abouts_page .row .col-md-12{font-size: 12px;line-height: 16px;}
+.bg_contact {padding: 10px 0px;}
+.contact_info h3 {font-size: 18px; font-weight: 600;margin-bottom: 5px;}
+.contact_info p {font-size: 12px;line-height: 16px;}
+.info_icons ul span {width: 28px;height: 28px;margin-right: 10px;}
+.info_icons ul span i{font-size: 16px;display: flex;line-height: 33px;justify-content: center !important;object-position: center;align-items: center;width: 28px;height: 28px;}
+.bg-gray iframe{height: 190px;margin-top: 10px;}
+.panel-default > .panel-heading a {font-size: 12px;padding: 10px 20px;text-decoration: none;}
+.panel-default > .panel-heading a::after {top:2px;right: 20px; font-size: 26px !important;}
+.inner_Privacy_Policy_section .container figcaption h5 {font-size: 14px;margin: 0px 0px 10px 0px;}
+.downlaod-box figcaption h6 {font-size: 14px;}
+.downlaod-box figcaption h4 {font-size: 18px;font-weight: 600;}
+.downlaod-box figcaption p {font-size: 12px;font-weight: 400;padding-bottom: 10px; line-height: 16px;} 
+.custom-control-label a{color: #65a4b4;text-decoration: none;}
+.navbar-nav {background: #e3eef7;padding: 10px;border-radius: 4px;margin-top: 10px;text-align: center;}
+.navbar-nav .nav-item {display: flex;justify-content: center;}
+.show > .dropdown-menu {overflow: auto;height: 365px; padding: 0px;border: 1px solid #fff;}
+.cat-head .btn {font-size: 12px;border: 1px solid #71777b;color:#71777b;padding: 8px 10px;}
+.navbar-nav .nav-item .btn{display: block;width: auto; margin-left: 0px; margin-top: 10px; width: 100%;}
+.categories-home {padding-top: 30px;}
+.categories-home-in article figcaption h4 {margin: 0 !important; line-height: 14px !important;}
+.categories-home-in article figcaption h4 a{font-size: 14px !important;}
+.categories-home-in .row .col-md-3{margin-bottom: 10px;flex: 0 0 100% !important;max-width: 100% !important;}
+.home-about {margin-bottom: 20px;}
+.sec-padding {padding: 10px 0px;}
+.contact_form {padding: 10px;border-radius: 8px;height: 100%;}
+.contact_info {padding: 10px;margin-top: 10px;}
+.info_icons ul li p {font-size: 14px;}
+.inner_Privacy_Policy_section {padding: 20px 0px;}
+.downlaod-box figcaption a {padding: 6px 12px;margin-right: 10px;}
+.downlaod-box figcaption a i {font-size: 20px;padding: 0px;margin-right: 5px;}
+.downlaod-box figcaption a span h5 {font-size: 14px; font-weight: 400 !important;}
+.downlaod-box figcaption a span h6 {font-size: 10px;}
+.title-bg-section h4 {font-size: 22px;}
+.title-bg-section p {font-size: 14px;}
+.slider-home .carousel-control-next-icon, .slider-home .carousel-control-prev-icon {width: 28px;height: 28px;}
+.carousel-indicators li {width: 10px;height: 10px; border: 1px solid #fff;}
+.home-about .row .col-md-6 article{margin: auto;}
+.home-about .row .col-md-6 article img{max-width: 160px;}
+.wraper-inner {padding: 10px 0px;}
+.wraper {padding-top: 50px;}
+.heading .separator {height: 3px;}
+.inner_Privacy_Policy_section .container figcaption p{font-size: 12px; line-height: 16px;margin: 0px 0px 10px 0px;}
+.downlaod-box {padding: 10px 10px;}
+.downlaod-box .col-md-5 figure img{max-width: 160px;}
+.form-box{width: auto;}
+.title-bg-section {padding: 15px 15px;}
+.log-with p {font-size: 13px;margin: 0px;padding-right: 5px;}
+.have-account span {font-size: 14px;}
+.log-with span {width: 175px;}
+.social-icons a {padding-right: 5px;}
+.social-icons {width: 100%;padding: 10px 0px 10px 0px;}
+.from-in-box {padding: 10px 10px;}
+.navbar-brand {width: 95px; margin-right: 0px !important;}
+.carousel-indicators {bottom: -5px;}
+.categories-home-in article figcaption {padding: 0px 10px !important;min-height: 60px;}
+.categories-home-in article figure a {height: 190px;}
+.bg_contact .container h2 {font-size: 18px;font-weight: 600;margin: 0px 0px 10px 0px;}
+.panel-default {margin: 10px 0px 10px 0px;}
+.panel-body p {font-size: 12px;padding-top: 5px;line-height: 16px;font-weight: 400;}
+.inner_Privacy_Policy_section figcaption{font-size: 14px; line-height: 16px;}
+.social-icons span {min-width: 35px;height: 35px;width: 35px;}
+.social-icons span img {width: 100% !important;height: 100% !important;}
+.downlaod-box .m-auto figcaption a:last-child{margin-right: 0px;}
+header{padding: 5px 0px;}
+.navbar-toggler {padding: 1px 4px !important;}
+.categories-home-in article figure a::after {height: 115px;}
+.navbar-light .navbar-toggler{margin-left: 5px;}
+.dropdown-item:focus, .dropdown-item:hover {background-color: #65a4b4;}
+.dropdown-menu {right: 0 !important; left: initial; height: 360px !important;overflow: auto;}
+.dropdown-item {white-space: initial;width: 170px; font-size: 12px;padding: .25rem 0.5rem;font-family: "ProximaNova-semibold";}
+.cat-head {margin-left: 0px !important;}
+.SumoSelect.open > .optWrapper {display: contents;}
+.SumoSelect > .optWrapper > .options li label {margin-bottom: 0px; font-size: 12px;}
+.SumoSelect > .optWrapper > .options {max-height: 200px !important;}
+.SumoSelect > .optWrapper.multiple.isFloating > .MultiControls {bottom: -40px;}
+.form-group .btn-green{margin-top: 60px;} 
+.SumoSelect > .optWrapper.isFloating > .options {box-shadow: 0px 0 100px #acacac;}
+.SumoSelect > .optWrapper.isFloating > .options li.opt {padding: 8px 6px;}
+.SumoSelect > .optWrapper.multiple > .MultiControls > p {padding: 8px;}
+.modal-header{padding: 10px 20px !important;}
+.modal-header .close {font-size: 1.5rem; padding: 0rem;margin: 0rem 0rem 0rem auto}
+/*appointments*/
+.small-nav-section .navbar-nav .nav-item .nav-link {padding: 8px 10px;font-size: 14px;text-align: center;line-height: 13px;/*min-width: 148px;*/}
+.small-nav-section .navbar-nav .nav-item {flex: 0 0 33.33%;width: 33.33%;}
+.small-nav-section .navbar-nav .nav-item .nav-link {border-top: 1px solid #d3d7df;border-bottom: 1px solid #d3d7df;}
+.account-manage-box .classic-tabs .tabs-cyan .nav-item a {font-size: 11px; padding: 5px 3px !important;border-bottom: 2px solid transparent;text-align: center;font-family: "ProximaNova-semibold";}
+.account-manage-box .classic-tabs .tabs-cyan .nav-item .active {border-bottom: 2px solid #65a4b4;}
+.categories-Management {padding: 10px 15px;}
+.account-manage-box .classic-tabs .tabs-cyan{display: flex;justify-content: center;}
+.profile-linkes a label{width: 50px;height: 50px; margin-bottom: 0px;}
+.profile-linkes a label i{width: 50px;height: 50px; display: flex;justify-content: center;align-items: center;}
+.Payment-in-butt .btn {padding: 8px 14px;font-size: 12px;margin-right: 4px;line-height: 12px;}
+.Payment-in-box {padding: 15px 15px;margin-bottom: 0px;height: 100%;}
+.Payment-in-box h6 {font-size: 14px;padding-right: 45px;}
+.Payment-in-box p {font-size: 16px;}
+.new-card-buttn{padding-top: 20px;}
+.account-manage-box .row .col-md-4{padding-bottom: 15px;}
+.account-manage-box .heading-in-section {padding-bottom: 10px;}
+.account-manage-box .heading-in-section h4{font-size: 14px;font-family: "ProximaNova-semibold";margin-bottom: 0px;}
+.Book-Manage-in figcaption {padding-left: 10px;}
+.Manage-classic-box .d-flex {padding: 10px 0px; display: block !important;}
+.Book-Manage-in figcaption h4 {font-size: 12px;font-family: "ProximaNova-semibold";padding-bottom: 5px;}
+.Book-Manage-in figcaption p {line-height: 14px;font-size: 12px;font-family: "ProximaNova-Regular";padding-bottom: 5px;align-items: baseline;}
+.manage-right-box p {font-size: 12px; margin-bottom: 0px;}
+.small-nav-section .collapse {display: block;}
+.small-nav-section .navbar-toggler {display: none;}
+.small-nav-section .navbar-nav {padding: 0px; display: flex;flex-direction: initial; justify-content: center;flex-wrap: wrap;}
+.small-nav-section .navbar-nav .nav-item .active::after {height: 2px;}
+.small-nav-section {margin-top: 0px;}
+.Book-Manage-in figure {border-radius: 8px;min-width: 115px;width: 115px;height: 70px;}
+.manage-right-box {font-size: 12px;text-align: left;}
+.classic-tabs .tabs-cyan .nav-item{flex: 0 0 50%; width: 50%;}
+.account-profile-box figure {width: 90px;height: 90px;}
+.account-profile-box a {border: 3px solid #fff; bottom: 0px; right: -15px;}
+.account-profile-box {padding-bottom: 0px;}
+.manage-right-box a {border-radius: 4px;min-width: 100px;font-size: 12px;}
+.table td, .table th {padding: 5px; font-size: 12px;}
+.user-nav-section{display: flex;justify-content: center;padding-left: 0px !important;}
+.user-nav-section figure {min-width: 45px;width: 45px;height: 45px;border: 3px solid #65a4b4;}
+.Manage-classic-box .d-flex:hover {background-color: rgba(218, 223, 230, 0.3);}
+
+.SumoSelect {width: 100%;}
+/*pagination*/
+.page-item.active .page-link {border-radius: 50%;width: 35px;border: 1px solid transparent;height: 35px;}
+.pagination{justify-content: center;padding: 10px 10px;}
+.pagination .page-item .page-link{border: 1px solid#d3d7df;margin: 0px 2px;border-radius: 50%;width: 35px;height: 35px;color: #8c9097;font-size: 14px;}
+.pagination .page-item .page-link:hover {width: 35px;height: 35px;border-radius: 50%;border: 1px solid#d3d7df;}
+/*pagination*/
+/*services-manage*/
+.services-manage-box figure {height: auto;}
+.categories-services {width:auto;}
+.service-modal-box .modal-body {padding: 20px;}
+.service-in-page h5 {font-size: 14px;}
+.services-manage-box figcaption h6 {font-size: 14px;}
+.services-manage-box figcaption {font-size: 12px; padding: 20px 20px;line-height: 16px;}
+.services-manage-box figcaption .d-flex{padding-top: 10px;}
+/*Job Management*/
+.heading-in-section {padding-bottom: 10px;}
+.categories-Management .row .col-md-5 figure{height: auto;}
+.View-link {right: 18px;}
+.View-link a{margin-left: auto !important;}
+.categories-Management .col-md-7 .d-flex {padding-bottom: 10px;}
+.manage-box h6 {font-size: 12px;}
+.provider-in-box figure {min-width: 40px;height: 40px;width: 40px; margin-right: 10px;}
+.provider-in-box figcaption h6 {font-size: 12px;font-family: "ProximaNova-semibold";}
+.View-link a {font-size: 12px;font-family: "ProximaNova-semibold";}
+.categories-Management .text-center h4{font-size: 16px; margin-bottom: 0px;}
+.provider-box h4 {font-size: 13px;font-family: "ProximaNova-semibold";}
+.provider-in-box figcaption {padding-right: 100px;}
+.provider-in-box {border-radius: 5px;padding: 5px;}
+.manage-box p {font-size: 12px;}
+.Provided-cover {height:auto !important;}
+.Provided-profile figure {width: 60px;height: 60px;border: 3px solid #fff;}
+.Provided-profile figcaption h6 {font-size: 14px; margin-top: 10px; font-family: "ProximaNova-semibold";}
+.Provided-section h5 {font-size: 14px;font-family: "ProximaNova-semibold";padding-bottom: 12px;}
+.Provided-links figure {width: auto;height: 165px; min-width: auto;margin-bottom: 10px;}
+.Provided-links .navbar-expand .navbar-nav .nav-link {padding-right: 15px;padding-left: 15px; width: 100%;}
+.Provided-links .navbar-nav {background: none;padding: 0px; margin: 0px 0px 0px 0px;}
+.Provided-links .navbar-nav li a {padding: 8px 20px;font-size: 12px;}
+.Provided-section {padding: 20px;}
+.Provided-text-file {margin-top: -30px;}
+.Manage-classic-box b {font-size: 18px;font-family: "ProximaNova-semibold";padding: 20px 0px;}
+.Provided-links .navbar-nav li {padding-right:0px;padding-bottom:10px;width: 100% !important;}
+.provider-in-box figcaption p {padding-right: 0px;font-size: 12px;}
+.Countries-sec button {border: 1px solid #65a4b4; font-size: 12px;padding: 6px 4px;margin: 0px; margin-left: 5px !important;}
+.cat-head .btn {font-size: 12px !important;background: none;border: 1px solid #65a4b4;color:#65a4b4;
+    padding: 6px 4px;font-size: 16px;font-family: "ProximaNova-Semibold";}
+.Countries-sec{margin: 0px !important;}
+.navbar .d-flex{position: absolute;right: 50px;}
+
+/*footer*/
+.footer-bg .row {padding-bottom: 10px;}
+.footer-bg {padding: 20px 0px 0px 0px;border-radius: 80px 0px 0px 0px; text-align: center;}
+.icon-box-in li {justify-content: center;}
+.foot-head {font-size: 16px;padding-bottom: 10px;padding-top: 10px;}
+.footer-bg .foot-info p {font-size: 12px;padding-right: 0px;margin-bottom: 0px; line-height: 14px;}
+.footer-bg .row .col-md-8 .row .col-md-4 .app-the-link{display: flex; justify-content: center;}
+.footer-bg .row .col-md-8 .row .col-md-4 .app-the-link li{padding-bottom: 0px;margin:0px 10px;}
+.footer-bg .foot-info {width:100%;}
+.footer-bg .foot-info a img {width: 190px;height: 45px;margin-bottom: 10px}
+.copy-foot {font-size: 12px;padding: 10px 0px;}
+.foot-link{line-height: 20px;}
+
+}

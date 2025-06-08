@@ -1,0 +1,97 @@
+  $id = base64_decode($id);
+      $userData = User::find($id)->toArray();
+      $expireLink = $userData['expire_link'];
+      $endTime = strtotime("+1 minutes", strtotime($expireLink));
+      $newTime = date('H:i:s', $endTime);
+
+      if (time() <= strtotime($newTime) &&  $userData['reset_status']==1) {
+
+        return view('admin/login/reset',compact('id'));
+
+      }else{
+        return redirect('admin/forget')->with('error', 'User link expire,please send again!');
+      }
+
+
+    }
+    ..............................
+    
+    public function ForgetPassword()
+        {
+        $data=Globalsetting::where('id',1)->first();
+        return view('admin.forgetpassword',compact('data'));
+         }
+
+   function CheckSendmail(Request $request)
+    {  
+        $this->validate($request, [
+        'email'   => 'required|email'
+      ]);
+
+        $email=$request->email;
+        // $user = users::where('email', '=', $mail);
+        $user = users::where('email',$email)->first();
+        if (is_null($user))
+        {   
+            toastr()->success('email does not exists');
+            return back();
+        }
+        else
+        {    
+          $link = "<a href='".url('admin/resetpassword/'.base64_encode($user->id))."'> Click hear to reset password</a>";
+          //dd($link);
+           $name =$user->name;
+           $EmailTemplates = Emailtemplate::where('slug', 'Forgot-password')->first();
+           $message = str_replace(array('{name}','{link}'), array($name,$link), $EmailTemplates->message); 
+           $subject   = $EmailTemplates->subject;
+           $to_name =  $user->name;
+           $to_email = $email;
+           $data   =   array();
+           $data['msg']=$message;
+           Mail::send('admin.emailtemplate.email', $data, function($message) use ($to_name, $to_email,$subject) 
+           {
+            $message->to($to_email, $to_name)
+            ->subject($subject);
+            $message->from(env('MAIL_USERNAME'));
+          });
+
+           $time = date("H:i:s");
+           $data = array('expire_link' => $time, 'reset_status'=>1);
+           $dataUpdate = users::where('id',$user['id'])->update($data);
+           toastr()->success('Email Sent. Check your inbox.');
+          return redirect()->route('admin.login');
+
+        }
+    }
+
+    public function ResetPassword($id)
+        {   //for logo
+           //dd(base64_decode($id));
+            $data=Globalsetting::where('id',1)->first();
+            //for reset password
+            $check = users::where('id',base64_decode($id))->first();
+            // dd($check);
+            if(!empty($check))
+             {
+              $reset_id = $check->id;
+              return view('admin.resetpassword',compact('reset_id','data'));
+             }
+             else{
+                toastr()->error('Wrong Url');
+                return redirect()->route('admin.login');
+             }
+            
+        }
+    public function Reset(Request $request,$id)
+        {   
+            $request->validate([
+               'password'              => 'required|min:6',
+               'password_confirmation' => 'required_with:password|required|same:password',
+            ]);
+            $data=users::findOrFail($id);
+            $data->password = Hash::make($request['password']);
+            $data->save();
+            toastr()->success('password Successfully Change');
+           return redirect()->route('admin.login');
+        }
+        

@@ -1,0 +1,23 @@
+ .from-bpox-in{display: flex;}
+ th a{
+    color:black !important;
+  }
+.from-bpox-in{display: flex;}
+/*add button*/
+.from-lex{display: flex; justify-content: space-between;}
+.form-group input {line-height: 20px !important}
+.form-group {padding: 0px 3px;}
+.bo-co{border-color: #3c8dbc}
+th a{
+color:black !important;
+}
+.float{padding-top:10px;height: 81px;}
+.content-header {
+   padding-top: 0px;}
+
+.area-bo{border: solid 1px #d2d6de;}
+ .help-block{
+    color: red !important;
+  }
+  /*....................popup box for assign provider*/
+

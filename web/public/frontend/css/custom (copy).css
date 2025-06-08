@@ -1,0 +1,14 @@
+ .help-block{
+    color: red !important;
+  }
+
+b {
+  font-weight: bold !important;
+}
+.categories-home-in article figcaption h4 a{
+	text-decoration: none;
+}
+
+.Book-Manage-in figcaption a{
+	text-decoration: none;
+}
